@@ -15,8 +15,10 @@
 		F46700F91FD2F82A0070EBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46700F71FD2F82A0070EBCB /* Main.storyboard */; };
 		F46700FB1FD2F82A0070EBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46700FA1FD2F82A0070EBCB /* Assets.xcassets */; };
 		F46700FE1FD2F82A0070EBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46700FC1FD2F82A0070EBCB /* LaunchScreen.storyboard */; };
-		F46701091FD2F82A0070EBCB /* The_Impossible_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46701081FD2F82A0070EBCB /* The_Impossible_GameTests.swift */; };
 		F46701141FD2F82A0070EBCB /* The_Impossible_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46701131FD2F82A0070EBCB /* The_Impossible_GameUITests.swift */; };
+		F4B5CB8B1FD8E8480026BD95 /* StartMenuTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5CB8A1FD8E8480026BD95 /* StartMenuTest.swift */; };
+		F4B5CB921FD8EF070026BD95 /* StartMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4B5CB911FD8EF070026BD95 /* StartMenuScene.sks */; };
+		F4B5CB941FD8EF5D0026BD95 /* StartMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5CB931FD8EF5D0026BD95 /* StartMenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F46700EA1FD2F82A0070EBCB /* The Impossible Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Impossible Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46700EA1FD2F82A0070EBCB /* TheImpossibleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheImpossibleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46700ED1FD2F82A0070EBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F46700EF1FD2F82A0070EBCB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		F46700F11FD2F82A0070EBCB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -47,12 +49,14 @@
 		F46700FA1FD2F82A0070EBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46700FD1FD2F82A0070EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F46700FF1FD2F82A0070EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F46701041FD2F82A0070EBCB /* The Impossible GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Impossible GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F46701081FD2F82A0070EBCB /* The_Impossible_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Impossible_GameTests.swift; sourceTree = "<group>"; };
+		F46701041FD2F82A0070EBCB /* TheImpossibleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheImpossibleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F467010A1FD2F82A0070EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F467010F1FD2F82A0070EBCB /* The Impossible GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Impossible GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F467010F1FD2F82A0070EBCB /* TheImpossibleGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheImpossibleGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46701131FD2F82A0070EBCB /* The_Impossible_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Impossible_GameUITests.swift; sourceTree = "<group>"; };
 		F46701151FD2F82A0070EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B5CB8A1FD8E8480026BD95 /* StartMenuTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMenuTest.swift; sourceTree = "<group>"; };
+		F4B5CB911FD8EF070026BD95 /* StartMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartMenuScene.sks; sourceTree = "<group>"; };
+		F4B5CB931FD8EF5D0026BD95 /* StartMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +97,9 @@
 		F46700EB1FD2F82A0070EBCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F46700EA1FD2F82A0070EBCB /* The Impossible Game.app */,
-				F46701041FD2F82A0070EBCB /* The Impossible GameTests.xctest */,
-				F467010F1FD2F82A0070EBCB /* The Impossible GameUITests.xctest */,
+				F46700EA1FD2F82A0070EBCB /* TheImpossibleGame.app */,
+				F46701041FD2F82A0070EBCB /* TheImpossibleGameTests.xctest */,
+				F467010F1FD2F82A0070EBCB /* TheImpossibleGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,10 +107,10 @@
 		F46700EC1FD2F82A0070EBCB /* The Impossible Game */ = {
 			isa = PBXGroup;
 			children = (
+				F4B5CB8E1FD8EEB70026BD95 /* StartMenu */,
+				F4B5CB8C1FD8EE740026BD95 /* GameScene */,
 				F46700ED1FD2F82A0070EBCB /* AppDelegate.swift */,
-				F46700EF1FD2F82A0070EBCB /* GameScene.sks */,
 				F46700F11FD2F82A0070EBCB /* Actions.sks */,
-				F46700F31FD2F82A0070EBCB /* GameScene.swift */,
 				F46700F51FD2F82A0070EBCB /* GameViewController.swift */,
 				F46700F71FD2F82A0070EBCB /* Main.storyboard */,
 				F46700FA1FD2F82A0070EBCB /* Assets.xcassets */,
@@ -119,8 +123,8 @@
 		F46701071FD2F82A0070EBCB /* The Impossible GameTests */ = {
 			isa = PBXGroup;
 			children = (
-				F46701081FD2F82A0070EBCB /* The_Impossible_GameTests.swift */,
 				F467010A1FD2F82A0070EBCB /* Info.plist */,
+				F4B5CB8A1FD8E8480026BD95 /* StartMenuTest.swift */,
 			);
 			path = "The Impossible GameTests";
 			sourceTree = "<group>";
@@ -134,12 +138,30 @@
 			path = "The Impossible GameUITests";
 			sourceTree = "<group>";
 		};
+		F4B5CB8C1FD8EE740026BD95 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				F46700F31FD2F82A0070EBCB /* GameScene.swift */,
+				F46700EF1FD2F82A0070EBCB /* GameScene.sks */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		F4B5CB8E1FD8EEB70026BD95 /* StartMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F4B5CB911FD8EF070026BD95 /* StartMenuScene.sks */,
+				F4B5CB931FD8EF5D0026BD95 /* StartMenuScene.swift */,
+			);
+			path = StartMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F46700E91FD2F82A0070EBCB /* The Impossible Game */ = {
+		F46700E91FD2F82A0070EBCB /* TheImpossibleGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F46701181FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "The Impossible Game" */;
+			buildConfigurationList = F46701181FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "TheImpossibleGame" */;
 			buildPhases = (
 				F46700E61FD2F82A0070EBCB /* Sources */,
 				F46700E71FD2F82A0070EBCB /* Frameworks */,
@@ -149,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = "The Impossible Game";
+			name = TheImpossibleGame;
 			productName = "The Impossible Game";
-			productReference = F46700EA1FD2F82A0070EBCB /* The Impossible Game.app */;
+			productReference = F46700EA1FD2F82A0070EBCB /* TheImpossibleGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F46701031FD2F82A0070EBCB /* The Impossible GameTests */ = {
+		F46701031FD2F82A0070EBCB /* TheImpossibleGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F467011B1FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "The Impossible GameTests" */;
+			buildConfigurationList = F467011B1FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "TheImpossibleGameTests" */;
 			buildPhases = (
 				F46701001FD2F82A0070EBCB /* Sources */,
 				F46701011FD2F82A0070EBCB /* Frameworks */,
@@ -167,14 +189,14 @@
 			dependencies = (
 				F46701061FD2F82A0070EBCB /* PBXTargetDependency */,
 			);
-			name = "The Impossible GameTests";
+			name = TheImpossibleGameTests;
 			productName = "The Impossible GameTests";
-			productReference = F46701041FD2F82A0070EBCB /* The Impossible GameTests.xctest */;
+			productReference = F46701041FD2F82A0070EBCB /* TheImpossibleGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F467010E1FD2F82A0070EBCB /* The Impossible GameUITests */ = {
+		F467010E1FD2F82A0070EBCB /* TheImpossibleGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F467011E1FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "The Impossible GameUITests" */;
+			buildConfigurationList = F467011E1FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "TheImpossibleGameUITests" */;
 			buildPhases = (
 				F467010B1FD2F82A0070EBCB /* Sources */,
 				F467010C1FD2F82A0070EBCB /* Frameworks */,
@@ -185,9 +207,9 @@
 			dependencies = (
 				F46701111FD2F82A0070EBCB /* PBXTargetDependency */,
 			);
-			name = "The Impossible GameUITests";
+			name = TheImpossibleGameUITests;
 			productName = "The Impossible GameUITests";
-			productReference = F467010F1FD2F82A0070EBCB /* The Impossible GameUITests.xctest */;
+			productReference = F467010F1FD2F82A0070EBCB /* TheImpossibleGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F46700E51FD2F82A0070EBCB /* Build configuration list for PBXProject "The Impossible Game" */;
+			buildConfigurationList = F46700E51FD2F82A0070EBCB /* Build configuration list for PBXProject "TheImpossibleGame" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,9 +251,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F46700E91FD2F82A0070EBCB /* The Impossible Game */,
-				F46701031FD2F82A0070EBCB /* The Impossible GameTests */,
-				F467010E1FD2F82A0070EBCB /* The Impossible GameUITests */,
+				F46700E91FD2F82A0070EBCB /* TheImpossibleGame */,
+				F46701031FD2F82A0070EBCB /* TheImpossibleGameTests */,
+				F467010E1FD2F82A0070EBCB /* TheImpossibleGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +265,7 @@
 			files = (
 				F46700F91FD2F82A0070EBCB /* Main.storyboard in Resources */,
 				F46700F01FD2F82A0070EBCB /* GameScene.sks in Resources */,
+				F4B5CB921FD8EF070026BD95 /* StartMenuScene.sks in Resources */,
 				F46700FB1FD2F82A0070EBCB /* Assets.xcassets in Resources */,
 				F46700FE1FD2F82A0070EBCB /* LaunchScreen.storyboard in Resources */,
 				F46700F21FD2F82A0070EBCB /* Actions.sks in Resources */,
@@ -270,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B5CB941FD8EF5D0026BD95 /* StartMenuScene.swift in Sources */,
 				F46700F41FD2F82A0070EBCB /* GameScene.swift in Sources */,
 				F46700F61FD2F82A0070EBCB /* GameViewController.swift in Sources */,
 				F46700EE1FD2F82A0070EBCB /* AppDelegate.swift in Sources */,
@@ -280,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46701091FD2F82A0070EBCB /* The_Impossible_GameTests.swift in Sources */,
+				F4B5CB8B1FD8E8480026BD95 /* StartMenuTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		F46701061FD2F82A0070EBCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F46700E91FD2F82A0070EBCB /* The Impossible Game */;
+			target = F46700E91FD2F82A0070EBCB /* TheImpossibleGame */;
 			targetProxy = F46701051FD2F82A0070EBCB /* PBXContainerItemProxy */;
 		};
 		F46701111FD2F82A0070EBCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F46700E91FD2F82A0070EBCB /* The Impossible Game */;
+			target = F46700E91FD2F82A0070EBCB /* TheImpossibleGame */;
 			targetProxy = F46701101FD2F82A0070EBCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Impossible Game.app/The Impossible Game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheImpossibleGame.app/TheImpossibleGame";
 			};
 			name = Debug;
 		};
@@ -490,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Impossible Game.app/The Impossible Game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheImpossibleGame.app/TheImpossibleGame";
 			};
 			name = Release;
 		};
@@ -527,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F46700E51FD2F82A0070EBCB /* Build configuration list for PBXProject "The Impossible Game" */ = {
+		F46700E51FD2F82A0070EBCB /* Build configuration list for PBXProject "TheImpossibleGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F46701161FD2F82A0070EBCB /* Debug */,
@@ -536,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F46701181FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "The Impossible Game" */ = {
+		F46701181FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "TheImpossibleGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F46701191FD2F82A0070EBCB /* Debug */,
@@ -545,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F467011B1FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "The Impossible GameTests" */ = {
+		F467011B1FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "TheImpossibleGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F467011C1FD2F82A0070EBCB /* Debug */,
@@ -554,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F467011E1FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "The Impossible GameUITests" */ = {
+		F467011E1FD2F82A0070EBCB /* Build configuration list for PBXNativeTarget "TheImpossibleGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F467011F1FD2F82A0070EBCB /* Debug */,
