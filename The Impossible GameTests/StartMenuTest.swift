@@ -15,11 +15,10 @@ class StartMenuTest: XCTestCase {
     
     var startMenuUnderTest: SKScene!
     var testView: SKView!
+    var startGameButton: SKSpriteNode!
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-        
         //This creates a view that will hold our scene
         
         testView = SKView()
@@ -35,16 +34,15 @@ class StartMenuTest: XCTestCase {
     }
     
     func testCreatesGameButton() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // This ensures that the startGameButton appears on opening the app
         
         startMenuUnderTest.didMove(to: testView)
-        
-        //let tempNodeClass = SKSpriteNode()
         let startGameButton = startMenuUnderTest.childNode(withName: "startGameButton")
-
-        
         XCTAssertTrue(((startGameButton as? SKSpriteNode) != nil))
     }
     
+    func testGameButtonSwitchesView() {
+        // This test ensures the screen switches when the start button is pressed
+        
+    }
 }

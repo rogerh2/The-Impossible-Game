@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F414E5F21FEEBE600071BA15 /* thrustExhaustMaintain.sks in Resources */ = {isa = PBXBuildFile; fileRef = F414E5F01FEEBE600071BA15 /* thrustExhaustMaintain.sks */; };
+		F414E5F31FEEBE600071BA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F414E5F11FEEBE600071BA15 /* Assets.xcassets */; };
+		F41C4E601FEDBA920080D5A5 /* GameSceneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C4E5E1FEDB8620080D5A5 /* GameSceneTest.swift */; };
+		F41C4E641FEDBB9A0080D5A5 /* HumanPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C4E631FEDBB9A0080D5A5 /* HumanPlayer.swift */; };
 		F46700EE1FD2F82A0070EBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46700ED1FD2F82A0070EBCB /* AppDelegate.swift */; };
 		F46700F01FD2F82A0070EBCB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F46700EF1FD2F82A0070EBCB /* GameScene.sks */; };
 		F46700F21FD2F82A0070EBCB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F46700F11FD2F82A0070EBCB /* Actions.sks */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F414E5F01FEEBE600071BA15 /* thrustExhaustMaintain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = thrustExhaustMaintain.sks; sourceTree = "<group>"; };
+		F414E5F11FEEBE600071BA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F41C4E5E1FEDB8620080D5A5 /* GameSceneTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneTest.swift; sourceTree = "<group>"; };
+		F41C4E631FEDBB9A0080D5A5 /* HumanPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanPlayer.swift; sourceTree = "<group>"; usesTabs = 0; };
 		F46700EA1FD2F82A0070EBCB /* TheImpossibleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheImpossibleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46700ED1FD2F82A0070EBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F46700EF1FD2F82A0070EBCB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -84,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F414E5EF1FEEBE120071BA15 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F414E5F01FEEBE600071BA15 /* thrustExhaustMaintain.sks */,
+				F414E5F11FEEBE600071BA15 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F41C4E5D1FEDB80D0080D5A5 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				F41C4E631FEDBB9A0080D5A5 /* HumanPlayer.swift */,
+			);
+			path = GameObjects;
+			sourceTree = "<group>";
+		};
 		F46700E11FD2F82A0070EBCB = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +132,7 @@
 		F46700EC1FD2F82A0070EBCB /* The Impossible Game */ = {
 			isa = PBXGroup;
 			children = (
+				F414E5EF1FEEBE120071BA15 /* Assets */,
 				F4B5CB8E1FD8EEB70026BD95 /* StartMenu */,
 				F4B5CB8C1FD8EE740026BD95 /* GameScene */,
 				F46700ED1FD2F82A0070EBCB /* AppDelegate.swift */,
@@ -125,6 +151,7 @@
 			children = (
 				F467010A1FD2F82A0070EBCB /* Info.plist */,
 				F4B5CB8A1FD8E8480026BD95 /* StartMenuTest.swift */,
+				F41C4E5E1FEDB8620080D5A5 /* GameSceneTest.swift */,
 			);
 			path = "The Impossible GameTests";
 			sourceTree = "<group>";
@@ -141,6 +168,7 @@
 		F4B5CB8C1FD8EE740026BD95 /* GameScene */ = {
 			isa = PBXGroup;
 			children = (
+				F41C4E5D1FEDB80D0080D5A5 /* GameObjects */,
 				F46700F31FD2F82A0070EBCB /* GameScene.swift */,
 				F46700EF1FD2F82A0070EBCB /* GameScene.sks */,
 			);
@@ -264,10 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F46700F91FD2F82A0070EBCB /* Main.storyboard in Resources */,
+				F414E5F21FEEBE600071BA15 /* thrustExhaustMaintain.sks in Resources */,
 				F46700F01FD2F82A0070EBCB /* GameScene.sks in Resources */,
 				F4B5CB921FD8EF070026BD95 /* StartMenuScene.sks in Resources */,
 				F46700FB1FD2F82A0070EBCB /* Assets.xcassets in Resources */,
 				F46700FE1FD2F82A0070EBCB /* LaunchScreen.storyboard in Resources */,
+				F414E5F31FEEBE600071BA15 /* Assets.xcassets in Resources */,
 				F46700F21FD2F82A0070EBCB /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +327,7 @@
 				F46700F41FD2F82A0070EBCB /* GameScene.swift in Sources */,
 				F46700F61FD2F82A0070EBCB /* GameViewController.swift in Sources */,
 				F46700EE1FD2F82A0070EBCB /* AppDelegate.swift in Sources */,
+				F41C4E641FEDBB9A0080D5A5 /* HumanPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41C4E601FEDBA920080D5A5 /* GameSceneTest.swift in Sources */,
 				F4B5CB8B1FD8E8480026BD95 /* StartMenuTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,9 +559,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.impossiblegames.The-Impossible-GameUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "The Impossible Game";
+				TEST_TARGET_NAME = TheImpossibleGame;
 			};
 			name = Debug;
 		};
@@ -542,9 +575,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.impossiblegames.The-Impossible-GameUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "The Impossible Game";
+				TEST_TARGET_NAME = TheImpossibleGame;
 			};
 			name = Release;
 		};
