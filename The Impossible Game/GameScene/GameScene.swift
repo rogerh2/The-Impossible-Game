@@ -51,7 +51,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
         
         if let node = firstBody.node as? Bullet {
-            if firstBody.categoryBitMask != secondBody.categoryBitMask {
+            if firstBody.categoryBitMask != secondBody.categoryBitMask && (secondBody.node?.position.y)! < self.size.height {
                 let alienBody = secondBody.node as? Asteroid
                 alienBody?.death(node)
                 enemyNumber -= 1
@@ -87,7 +87,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     
     override func update(_ currentTime: TimeInterval) {
-        if let touchLocation = touchArray.first?.location(in: self) as? CGPoint {
+        if let touchLocation = touchArray.first?.location(in: self) {
             let touchXLocation = touchLocation.x
             let absDistance = abs(player1.position.x - touchXLocation)
             if absDistance >= player1.size.width/4 {
@@ -153,7 +153,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let texture = textureArray[textureInd]
         let enemy = Asteroid(texture: texture, emitterName: "thrustExhaustMaintain", id: "\(enemyNumber)")
         self.addChild(enemy)
-        enemy.position = CGPoint(x: abs(self.size.width*CGFloat(arc4random_uniform(UInt32(10)/10)) - enemy.size.width), y: CGFloat(self.size.height + enemy.size.height))
+        let eWidth = enemy.size.width
+        let screenDivisions = Int(round(Float(self.size.width/eWidth)))
+        let randNum = Float(arc4random_uniform(UInt32(screenDivisions-1)))/Float(UInt32(screenDivisions))
+        let randCenter =  self.size.width*CGFloat(randNum)
+        enemy.position = CGPoint(x: abs(randCenter + eWidth), y: CGFloat(self.size.height + enemy.size.height))
         let addEnemyAction = SKAction.moveTo(y: CGFloat(self.size.height - 1.2*enemy.size.height), duration: 2.5)
         enemyNumber += 1
         enemy.run(addEnemyAction)
