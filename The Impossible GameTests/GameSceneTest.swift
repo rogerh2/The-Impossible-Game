@@ -40,5 +40,11 @@ class GameSceneTest: XCTestCase {
         XCTAssertTrue(((player as? HumanPlayer) != nil))
     }
     
-    
+    func testPlayerEmitsExhuast() {
+        // This ensures that the player appears on opening the app
+        gameSceneUnderTest.didMove(to: testView)
+        let player = gameSceneUnderTest.childNode(withName: "player1") as! HumanPlayer
+        let tempExhaust = player.exhaust
+        XCTAssertTrue(((tempExhaust as? SKEmitterNode) != nil))
+    }
 }
